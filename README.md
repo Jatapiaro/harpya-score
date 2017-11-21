@@ -6,21 +6,21 @@ copy enterely the SC3plugins folder to /Users/{{your_user}}/Library/Application 
 # 3. Compile the library using Cmd+Shift+L 
 ```
 
-# Add the custom sounds (.wav)
+# 1. Add the custom sounds (.wav)
 ```
 # 1. Copy the "sounds" folder included in this repository and paste it in 
 /Applications/SuperCollider.app/Contents/Resources, in case you already have a folder call sounds 
 in the previous route, just copy the contents of the "sounds" folder included in this repository.
 ```
 
-# Compile our SoundBoxClasses
+# 2. Compile our SoundBoxClasses
 ```
 # 1. Open the "Extensions" folder included in this repository
 # 2. Copy the contents to /Users/{{your_user}}/Library/Application Support/SuperCollider/Extensions 
 # 3. Compile the classes using Cmd+Shift+L 
 ```
 
-# Run each SoundBox
+# 3. Run each SoundBox
 ```
 # 1. Each soundbox has his own invoker file, then use them.
 ```
