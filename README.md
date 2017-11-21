@@ -36,13 +36,14 @@ for it, we use AmpKit on iOS
 
 # FINAL RESULT
 ```
-# 1. You can find the result in the next link: {{the_link}}
+# 1. You can find the result in the next link: https://drive.google.com/file/d/1PktPsx5bZEu40CX-l7ZS_LJTFPYOTR_J/view?usp=sharing
+# 2. The graphical score used is available here: https://drive.google.com/file/d/1LMTb2Kl_o6ulFq84SqFjXBBvdRaUfQGf/view?usp=sharing
 ```
 
 # COLLABORATORS
 ```
 1. Jacobo Misael Tapia de la Rosa - A01336590
-2. Pablo
-3. Ricardo
+2. Pablo Enríquez Escamilla - A01336386
+3. Ricardo Raúl Salcedo Trejo - A01337828
 Proffesor: Mauro Herrera
 ```
