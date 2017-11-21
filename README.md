@@ -2,7 +2,7 @@
 ```
 # 1. https://sourceforge.net/projects/sc3-plugins/files/OSX_3.6/SC3ExtPlugins-universal.dmg/download
 # 2. After download, open de .dmg and 
-copy the contents to /Users/{{your_user}}/Library/Application Support/SuperCollider/Extensions 
+copy enterely the SC3plugins folder to /Users/{{your_user}}/Library/Application Support/SuperCollider/Extensions 
 # 3. Compile the library using Cmd+Shift+L 
 ```
 
