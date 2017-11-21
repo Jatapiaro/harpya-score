@@ -1,0 +1,1 @@
+~soundBoxTwo = SoundBoxTwo.new;
