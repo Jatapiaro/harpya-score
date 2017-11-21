@@ -33,3 +33,16 @@ by us and then put them in SuperCollider
 for it, we use AmpKit on iOS
 # 3. Those records are in the guitar-recorded-sounds folder in this repository
 ```
+
+#FINAL RESULT
+```
+# 1. You can find the result in the next link: {{the_link}}
+```
+
+#COLLABORATORS
+```
+1. Jacobo Misael Tapia de la Rosa - A01336590
+2. Pablo
+3. Ricardo
+Proffesor: Mauro Herrera
+```
