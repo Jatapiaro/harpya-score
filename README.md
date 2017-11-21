@@ -31,4 +31,5 @@ in the previous route, just copy the contents of the "sounds" folder included in
 by us and then put them in SuperCollider
 # 2. The guitar sound is the only sound out of supercollider recorded with a real instrument, 
 for it, we use AmpKit on iOS
+# 3. Those records are in the guitar-recorded-sounds folder in this repository
 ```
