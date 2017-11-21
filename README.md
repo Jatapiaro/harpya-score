@@ -9,7 +9,8 @@ copy enterely the SC3plugins folder to /Users/{{your_user}}/Library/Application 
 # Add the custom sounds (.wav)
 ```
 # 1. Copy the "sounds" folder included in this repository and paste it in 
-/Applications/SuperCollider.app/Contents/Resources, in case you already have a folder call sounds in the previous route, just copy the contents of the "sounds" folder included in this repository.
+/Applications/SuperCollider.app/Contents/Resources, in case you already have a folder call sounds 
+in the previous route, just copy the contents of the "sounds" folder included in this repository.
 ```
 
 # Compile our SoundBoxClasses
@@ -26,6 +27,8 @@ copy enterely the SC3plugins folder to /Users/{{your_user}}/Library/Application 
 
 # IMPORTANT
 ```
-# 1. As it was hard to emulate some sounds like diabolic voices or forks and kives; some of these were recorded by us and then put them in SuperCollider
-# 2. The guitar sound is the only sound out of supercollider recorded with a real instrument, for it, we use AmpKit on iOS
+# 1. As it was hard to emulate some sounds like diabolic voices or forks and kives; some of these were recorded 
+by us and then put them in SuperCollider
+# 2. The guitar sound is the only sound out of supercollider recorded with a real instrument, 
+for it, we use AmpKit on iOS
 ```
