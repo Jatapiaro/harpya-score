@@ -34,12 +34,12 @@ for it, we use AmpKit on iOS
 # 3. Those records are in the guitar-recorded-sounds folder in this repository
 ```
 
-#FINAL RESULT
+# FINAL RESULT
 ```
 # 1. You can find the result in the next link: {{the_link}}
 ```
 
-#COLLABORATORS
+# COLLABORATORS
 ```
 1. Jacobo Misael Tapia de la Rosa - A01336590
 2. Pablo
