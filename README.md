@@ -22,7 +22,7 @@ in the previous route, just copy the contents of the "sounds" folder included in
 
 # Run each SoundBox
 ```
-# 1. Each soundbox has his own invoker file, then use it.
+# 1. Each soundbox has his own invoker file, then use them.
 ```
 
 # IMPORTANT
