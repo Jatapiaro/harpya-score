@@ -3,7 +3,7 @@ SoundBoxThree{
 	var lightSynth, musicBoxBuffer, musicBoxSynth, forksAndKnivesBuffer,
 	forksAndKnivesSynth, eatingBuffer, eatingSynth, tablePunchBuffer, tablePunchSynth,
 	doruminBuffer, doruminSynth, doruminTwoBuffer, doruminTwoSynth, bellsBuffer,
-	bellsSynth;
+	bellsSynth, pianoLoopBuffer, pianoLoopSynth;
 
 	var dur, note, r;
 
@@ -33,6 +33,10 @@ SoundBoxThree{
 		bellsBuffer = Buffer.read(
 			Server.default, Platform.resourceDir +/+"sounds/church-bells.wav"
 		);
+		pianoLoopBuffer = Buffer.read(
+			Server.default, Platform.resourceDir +/+"sounds/piano-rayado.wav"
+		);
+
 		this.makeAllSynthDefs;
 		this.showSoundBoxTwoGUI;
 				dur = {|len1=1, len2=2|
@@ -89,7 +93,7 @@ SoundBoxThree{
 
 		var window, lightSynthButton, musicBoxButton, forksAndKnivesButton,
 		eatingButton, tablePunchButton, doruminButton, doruminTwoButton, pianoButton,
-		bellsButton;
+		bellsButton, pianoLoopButton;
 
 		window = Window.new(
 			"Sound Box Three - Window", Rect(width: 500, height: 500)).front;
@@ -181,6 +185,15 @@ SoundBoxThree{
 			]
 		).action_({|bt|
 			this.playBells;
+		});
+
+		pianoLoopButton = Button(window, Rect(340, 80, 75, 50))
+		.states_(
+			[
+				["Piano Loop", Color.black, Color.green],
+			]
+		).action_({|bt|
+			this.playPianoLoop;
 		});
 
 	}
@@ -341,5 +354,19 @@ SoundBoxThree{
 
 	playPiano {
 		r.play(TempoClock(3));
+	}
+
+	playPianoLoop {
+		if ( pianoLoopSynth == nil,
+			{
+				pianoLoopSynth = Synth(\sound2, [
+					buffer: pianoLoopBuffer,
+				]);
+			},
+			{
+				pianoLoopSynth.set(\gate, 0);
+				pianoLoopSynth = nil;
+			}
+		);
 	}
 }
